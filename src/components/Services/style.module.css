@@ -1,0 +1,103 @@
+.ourServices {
+    background-color: var(--blue);
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+.content>*:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.content>*:nth-child(2) {
+    width: 52%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.content>*:nth-child(3) {
+    width: 55%;
+    text-align: center;
+    letter-spacing: 1.2px;
+    margin-bottom: 3rem;
+}
+
+.card {
+    gap: 2rem;
+}
+
+.cardServices{
+    margin: auto;
+    width: 80%;
+    gap: 2rem;
+}
+
+.cardServices>*{
+    min-width: 30%;
+}
+.viewAll {
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.viewAll::after {
+    content: "";
+    display: block;
+    border: 1px solid white;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.viewAll:hover:after { transform: scaleX(1); }
+
+.viewAll.fromLeft:after {
+    transform-origin: 0% 50%;
+}
+
+.mainServices{
+    color: white;
+    height: 80vh;
+    width: 100%;
+    background-color: var(--blue);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainServices h1{
+   font-size: 3rem;
+}
+
+.servicesImage{
+    width: 40%;
+    height: 80%;
+    background-color: var(--red);
+}
+@media screen and (max-width:769px) {
+    .content>*:nth-child(3) {
+        width: 90%;
+    }
+
+    .content>*:nth-child(2) {
+        width: 90%;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .content>*:nth-child(2) {
+        font-size: 1.8rem;
+    }
+}

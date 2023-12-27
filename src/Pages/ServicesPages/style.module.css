@@ -1,0 +1,20 @@
+.mainServices{
+    color: white;
+    height: 80vh;
+    width: 100%;
+    background-color: var(--blue);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainServices h1{
+   font-size: 3rem;
+}
+
+.servicesImage{
+    width: 40%;
+    height: 80%;
+    background-color: var(--red);
+}

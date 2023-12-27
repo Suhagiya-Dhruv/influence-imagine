@@ -1,0 +1,47 @@
+.portfolio {
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--red);
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+.content>*:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+
+.customTabPanel{
+    padding : 1rem 5rem;
+    letter-spacing: 1px;
+}
+
+.subTitle{
+    margin-top: 1rem;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.imageContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.images{
+    width: 30%;
+    height: 200px;
+    background-color: var(--blue);
+
+}
