@@ -1,5 +1,5 @@
 .ourServices {
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
     padding: 2rem 0rem;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    /* color: white; */
     padding-bottom: 1rem;
     gap: 1rem;
 }
@@ -37,35 +37,38 @@
     gap: 2rem;
 }
 
-.cardServices{
+.cardServices {
     margin: auto;
     width: 80%;
     gap: 2rem;
 }
 
-.cardServices>*{
+.cardServices>* {
     min-width: 30%;
 }
+
 .viewAll {
-    color: white;
+    /* color: white; */
     margin-top: 1.5rem;
 }
 
 .viewAll::after {
     content: "";
     display: block;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
 
-.viewAll:hover:after { transform: scaleX(1); }
+.viewAll:hover:after {
+    transform: scaleX(1);
+}
 
 .viewAll.fromLeft:after {
     transform-origin: 0% 50%;
 }
 
-.mainServices{
+.mainServices {
     color: white;
     height: 80vh;
     width: 100%;
@@ -76,20 +79,20 @@
     justify-content: space-around;
 }
 
-.mainServices h1{
-   font-size: 3rem;
+.mainServices h1 {
+    font-size: 3rem;
 }
 
-.servicesImage{
+.servicesImage {
     width: 40%;
     height: 80%;
     background-color: var(--red);
 }
+
 @media screen and (max-width:769px) {
     .content>*:nth-child(3) {
         width: 90%;
     }
-
     .content>*:nth-child(2) {
         width: 90%;
         font-size: 2.5rem;

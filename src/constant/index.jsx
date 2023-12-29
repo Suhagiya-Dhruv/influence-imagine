@@ -49,21 +49,21 @@ export const ServicesContent = [
     {
         id: 2,
         title: "Video Editing",
-        subTitle:`Elevate your visual storytelling with our professional video editing service! 🎬✨ We bring your footage to life, seamlessly weaving together scenes, enhancing visuals, and adding that perfect touch. Whether it's for personal memories, business promotions, or creative projects, our skilled editors ensure a captivating and polished final product. Let your story unfold with precision and flair.`,
+        subTitle:`Expert Video Editing and Production Solutions for Impactful Digital Content`,
         image: [1,2,3,4,5,6],
         url:"/video-editing"
     },
     {
         id: 3,
         title: "3D modeling",
-        subTitle:"Immerse your ideas in a world of depth and dimension with our 3D modeling service! 🌐✨ From conceptualizing to creating, we bring your vision to life with precision and creativity. Whether it's architectural designs, product prototypes, or artistic projects, our skilled 3D modelers craft detailed and realistic representations. Transform imagination into reality with our cutting-edge 3D modeling service.",
+        subTitle:"Comprehensive 3D Modeling and Visualization Services",
         image: [1,2,3,4,5,6],
         url:"/3d-modeling"
     },
     {
         id: 4,
         title: "Web and app development",
-        subTitle:"Experience the power of innovation with our Web and App Development service! 🌐✨ We specialize in crafting seamless digital solutions tailored to your needs. From responsive websites to dynamic mobile applications, our skilled developers bring your ideas to life with precision and functionality. Elevate your online presence and user experience with our cutting-edge development expertise. Transform possibilities into digital reality.",
+        subTitle:"Holistic Solutions for Web and Mobile App Design and Development",
         image: [1,2,3,4,5,6],
         url:"/web-and-app-development"
     },
