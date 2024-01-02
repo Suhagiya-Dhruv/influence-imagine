@@ -46,21 +46,21 @@ export const ServicesContent = [
     {
         id: 2,
         title: "Video Editing",
-        subTitle:`Expert Video Editing and Production Solutions for Impactful Digital Content`,
+        subTitle:`Expert Video Editing and Production Solutions for Impactful Digital Content.`,
         image: [1,2,3,4,5,6],
         url:"/video-editing"
     },
     {
         id: 3,
         title: "3D modeling",
-        subTitle:"Comprehensive 3D Modeling and Visualization Services",
+        subTitle:"Comprehensive 3D Modeling and Visualization Services.",
         image: [1,2,3,4,5,6],
         url:"/3d-modeling"
     },
     {
         id: 4,
         title: "Web and app development",
-        subTitle:"Holistic Solutions for Web and Mobile App Design and Development",
+        subTitle:"Holistic Solutions for Web and Mobile App Design and Development.",
         image: [1,2,3,4,5,6],
         url:"/web-and-app-development"
     },

@@ -4,6 +4,7 @@ import FlagIcon from '@mui/icons-material/Flag';
 import InterestsIcon from '@mui/icons-material/Interests';
 import RadarIcon from '@mui/icons-material/Radar';
 import ExtensionIcon from '@mui/icons-material/Extension';
+import Style from './style.module.css';
 
 export const ServicesCard = (props) => {
 
@@ -19,9 +20,11 @@ export const ServicesCard = (props) => {
                     md: "35%",
                     lg: "20%"
                 },
-                borderRadius: "0.8rem",
-                paddingBottom: "1rem"
+                paddingBottom: "1rem",
+                backgroundColor: "transparent",
+                color:"white"
             }}
+            className={Style.services_card}
         >
             <CardContent>
                 <Typography variant="h6" sx={{ fontWeight: "bolder", textAlign: "center" }}>
@@ -32,20 +35,20 @@ export const ServicesCard = (props) => {
                 </Typography>
             </CardContent>
             <div className="flex justify-center">
-                <Button size="small" variant="outlined"
+                {/* <Button size="small" variant="outlined"
                     sx={{
-                        border: "1px solid black",
+                        border: "none",
                         borderRadius: "1rem",
                         padding: "0.3rem 1rem",
                         color: "black",
                         fontWeight: "bolder",
                         textTransform: "capitalize"
 
-                    }}>
-                    <Link to={url}>
-                        Get Start Now
-                    </Link>
-                </Button>
+                    }}> */}
+                <Link to={url}>
+                    Learn More
+                </Link>
+                {/* </Button> */}
             </div>
         </Card>
     )
@@ -63,11 +66,11 @@ export const AboutCard = (props) => {
                 paddingBottom: "1rem",
             }}
         >
-            <div style={{backgroundColor:"var(--red)", display:"inline-block", padding:"0.5rem", margin:"1rem 0rem 0rem 1rem", borderRadius: "0.2rem"}}>
-                {title === "Our Mission" && <RadarIcon sx={{color:"white"}}/>}
-                {title === "Our Goal" && <FlagIcon sx={{color:"white"}}/>}
-                {title === "Our Strategy" && <ExtensionIcon sx={{color:"white"}}/>}
-                {title === "Social Proof" && <InterestsIcon sx={{color:"white"}}/>}
+            <div style={{ backgroundColor: "var(--red)", display: "inline-block", padding: "0.5rem", margin: "1rem 0rem 0rem 1rem", borderRadius: "0.2rem" }}>
+                {title === "Our Mission" && <RadarIcon sx={{ color: "white" }} />}
+                {title === "Our Goal" && <FlagIcon sx={{ color: "white" }} />}
+                {title === "Our Strategy" && <ExtensionIcon sx={{ color: "white" }} />}
+                {title === "Social Proof" && <InterestsIcon sx={{ color: "white" }} />}
             </div>
             <CardContent>
                 <Typography variant="h6" sx={{ fontWeight: "bolder" }}>
