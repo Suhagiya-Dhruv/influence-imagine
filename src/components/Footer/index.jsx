@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/2 lg:w-1/4 mb-8 lg:mb-0">
           <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
-          <p className="text-gray-400 mb-2">212, Dhara Trade Center, Mahadev Chowk, Near by swaminarayan Temple, Mota Varachha Surat</p>
+          <p className="text-gray-400 mb-2">211, Dhara Trade Center, Mahadev Chowk, Near by swaminarayan Temple, Mota Varachha Surat</p>
           <p className="text-gray-400 mb-2">India</p>
           <p className="text-gray-400">influenceimagine@gmail.com</p>
         </div>

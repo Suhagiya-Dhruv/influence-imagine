@@ -31,17 +31,14 @@ export const ServicesContent = [
     {
         id: 0,
         title: "Graphics Designing",
-        subTitle:"Graphic design is the art of crafting visual content to convey messages and ideas to a specific audience. It encompasses the strategic use of typography, imagery, colors, and visual elements to construct designs that are not only visually appealing but also powerful in delivering the intended message effectively.",
+        subTitle:"The Mastery of Graphic Design in Communicating Messages and Ideas to Target Audiences Through Strategic Typography, Imagery, Colors, and Visual Elements.",
         image: [1,2,3,4,5,6],
         url:"/graphice-designing"
     },
     {
         id: 1,
         title: "UI/UX Designing",
-        subTitle:`UI/UX design delves into the user interface and experience aspects of digital products like websites, mobile apps, and software applications.
-        UI/UX designers strive to produce designs that are not just visually appealing but also user-friendly and intuitive.
-        Their emphasis lies in crafting a seamless user experience,
-        ensuring that users can effortlessly accomplish their goals when interacting with the product.`,
+        subTitle:`Unpacking UI/UX Design in Crafting Intuitive and Visually Captivating Digital Experiences Across Websites, Mobile Apps, and Software Applications.`,
         image: [1,2,3,4,5,6],
         url:"/ui-ux-designing"
 
@@ -95,8 +92,8 @@ export const aboutUsCardContent = [
 ]
 export const aboutContact = {
     name: "influence imagine",
-    phone:"phone",
-    mobile:"mobile",
-    email:"email",
-    address:"address"
+    phone:"8780545212",
+    mobile:"9023989489",
+    email:"influenceimagine@gmail.com",
+    address:"211, Dhara Trade Center, Mahadev Chowk, Near by swaminarayan Temple, Mota Varachha Surat"
 }

@@ -15,7 +15,10 @@ const VideoPage = () => {
 
                 </div>
             </div>
-            <div>VideoPage</div>
+            <div>VideoPage
+                <div></div>
+                <div></div>
+            </div>
         </>
     )
 }
