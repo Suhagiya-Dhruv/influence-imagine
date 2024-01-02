@@ -55,7 +55,7 @@
 .viewAll::after {
     content: "";
     display: block;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
